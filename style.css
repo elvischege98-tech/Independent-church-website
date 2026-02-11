@@ -57,80 +57,62 @@ box-shadow: 0 4px 10px #7A002F;
         justify-content: center;
      }
 
- 
-
-/* Form container */
-.form {
-    background: #ffffff;
-    padding: 25px 30px;
-    border-radius: 10px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+/*Form container*/
+ .form{
+    border: solid rgb(222, 203, 203) 2px;
+    box-shadow:0 3px 3px 3px #DDCFCF;
+    background-color: #DDCFCF;
+    color: black;
+    padding: 20px;
     width: 350px;
-}
+    border-radius: 10px;
+ } 
 
-/* Form heading */
-.form h3 {
+ /*Form heading*/
+  .form h3{
     text-align: center;
-    margin-bottom: 20px;
-    color: #333;
-}
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: black;
+  }
 
-/* Form groups */
-.form-group {
+  /*form-group*/
+   .form-group{
     margin-bottom: 15px;
-}
+   }
 
-/* Labels */
-.form-group label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-    color: #555;
-}
+   /*Labels*/
+    .form-group label{
+        font-style: italic;
+        font-weight: 800;
+    }
 
-/* Inputs and select */
-.form-group input[type="text"],
-.form-group input[type="number"],
-.form-group select {
-    width: 100%;
-    padding: 8px 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    outline: none;
-    transition: 0.3s;
-}
+    /*Submit button*/
+    button{
+        width: 100%;
+        padding: 15px;
+        background-color:#AEB8C2;
+    }
 
-/* Focus effect */
-.form-group input:focus,
-.form-group select:focus {
-    border-color: #4e73df;
-    box-shadow: 0 0 5px rgba(78, 115, 223, 0.5);
-}
-
-/* Radio buttons inline */
-.form-group input[type="radio"] {
-    margin-right: 5px;
-}
-
-.form-group p {
-    margin-bottom: 8px;
-    font-weight: bold;
-    color: #555;
-}
-
-/* Submit button */
-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #4e73df;
+    button:hover{
+        background-color: green;
+    }
+ /*footer styling*/
+ footer{
+    background: linear-gradient(to right,#4e73df ,#1cc881 );
     color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.3s;
-}
+    padding: 20px 10px;
+    margin-top: 40px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    text-align: center;
+ }
 
-button:hover {
-    background-color: #2e59d9;
-}
+ footer p{
+    margin: 0;
+ }
+
+ /*Footer hover*/
+ footer:hover{
+    opacity: 0.95;
+ }
