@@ -21,3 +21,28 @@ box-shadow: 0 4px 10px #7A002F;
   .nav nav a:hover{
     background-color: #FF3381;
   }
+
+  /*Styling the header*/
+   .header{
+    display: flex;
+    justify-content: right;
+    background-color: #0F1D6C;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+   }
+    .header p{
+        color:  #DDCFCF;
+    }
+     .header a{
+        color:  #DDCFCF;
+        text-decoration: none;
+     }
+
+     /*Body*/
+     body{
+        background-color:#52001F;
+        color:  #DDCFCF;
+        font-weight: 400;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
