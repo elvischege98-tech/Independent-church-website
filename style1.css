@@ -86,18 +86,22 @@ box-shadow: 0 4px 10px #7A002F;
 
  /*showing of district and name*/
  #district{
-    font-weight: bold;
+    font-weight: bolder;
     color: rgb(188, 173, 173);
     position: relative;
     left: 275px;
-    bottom: 37px;
+    bottom: 55px;
     text-decoration: underline;
 }
-#name{
+#diplayName{
     font-weight: bold;
     color: rgb(196, 172, 172);
     position: relative;
     top: 15px;
 }
 
-
+span{
+   font-size: x-large;
+   position: relative;
+   font-weight: bolder;
+}
