@@ -66,37 +66,7 @@ box-shadow: 0 4px 10px #7A002F;
  footer:hover{
     opacity: 0.95;
  }
- 
- /* Card styling 
-  .card{
-padding: 20px;
-width: 350px;
-height: 350px;
-margin: 20px;
-background-color: #DDCFCF;
-border-radius: 10px;
-box-shadow: 0 10px 20px #DDCFCF;
-text-align: left;
-  }
-
-   .card h2{
-      text-align: center;
-      color: black;
-      margin-bottom: 15px;
-      display: contents;
-      justify-content: left;
-   }
-
-    .card p{
-      font-size: 15px;
-      margin: 40px 0;
-    }
-
-     .card strong{
-      color: black;
-     }
-      
-     */
+    
 
      /* Category box */
       .get-category{
@@ -109,6 +79,7 @@ text-align: left;
          background-color: #C41C38;
          font-weight: 900;
          border-radius: 10px;
+         overflow-y: auto;
       }
 
        .get-category p{
@@ -117,5 +88,22 @@ text-align: left;
          font-weight: bold;
          font-family: Georgia, 'Times New Roman', Times, serif;
        }
+
+       /* User-card */
+        .user-card{
+         display: flex;
+         flex-direction: column;
+         gap: 20px;
+         justify-content: flex-start;
+        }
+
+         .user-card h2{
+            text-align: center;
+            margin: 5px;
+         }
+
+          .user-card p{
+            margin: 10px 0;
+          }
 
 
